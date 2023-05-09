@@ -1,0 +1,20 @@
+{
+  "name": "some-lib",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc && ts-add-js-extension add --dir ./dist --showchanges=true",
+    "prepack": "yarn run build"
+  },
+  "devDependencies": {
+    "ts-add-js-extension": "^1.3.3",
+    "typescript": "^5.0.4"
+  }
+}

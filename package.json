@@ -1,0 +1,17 @@
+{
+  "name": "ts-add-js-extension-library-type-error",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/xiaoxiangmoe/ts-add-js-extension-library-type-error.git",
+  "author": "ZHAO Jinxiang <xiaoxiangmoe@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "yarn workspace some-lib build && yarn workspace some-cli-app build",
+    "start": "yarn workspace some-cli-app run start"
+  },
+  "workspaces": [
+    "some-lib",
+    "some-cli-app"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "some-cli-app",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "some-lib": "0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
