@@ -1,0 +1,1 @@
+# ts-add-js-extension-library-type-error
