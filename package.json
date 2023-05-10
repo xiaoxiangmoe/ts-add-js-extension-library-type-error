@@ -12,6 +12,7 @@
   },
   "workspaces": [
     "some-lib",
-    "some-cli-app"
+    "some-cli-app",
+    "nodenext-type-error"
   ]
 }
